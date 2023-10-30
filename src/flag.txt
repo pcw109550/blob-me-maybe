@@ -1,0 +1,1 @@
+WACON2023{eip4844-fun-with-kzg-and-trusted-setup-ceremony}

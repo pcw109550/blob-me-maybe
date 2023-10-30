@@ -1,0 +1,9 @@
+services:
+  chall:
+    build: .
+    restart: always
+    ports:
+      - "13337:13337"
+    environment:
+      - FLAG=SAMPLE_FLAG
+      - ADMIN_SEED=0

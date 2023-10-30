@@ -1,0 +1,9 @@
+services:
+  chall:
+    build: .
+    restart: always
+    ports:
+      - "13337:13337"
+    environment:
+      - FLAG=WACON2023{eip4844-fun-with-kzg-and-trusted-setup-ceremony}
+      - ADMIN_SEED=7579934314983453700
